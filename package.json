@@ -13,6 +13,8 @@
         "lint:style": "stylelint src/**/*.{css,scss,vue} --cache --fix"
     },
     "dependencies": {
+        "@element-plus/icons-vue": "^2.3.1",
+        "element-plus": "^2.8.4",
         "vue": "^3.4.37"
     },
     "devDependencies": {
