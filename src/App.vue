@@ -5,7 +5,12 @@
  * App.vue
 -->
 <template>
-    <div></div>
+    <div>
+        <el-button type="primary">主要按钮</el-button>
+
+        <h1></h1>
+        <svg-icon name="phone"></svg-icon>
+    </div>
 </template>
 
 <script setup lang="ts"></script>
