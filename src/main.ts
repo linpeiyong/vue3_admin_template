@@ -8,11 +8,19 @@ import 'virtual:svg-icons-register';
 
 import '@/styles/index.css';
 
+// 路由
+import router from './router';
+// 持久战
+import pinia from './store';
+
 import App from './App.vue';
 
 import gloablComponent from './index';
 
 const app = createApp(App);
+
+app.use(pinia);
+app.use(router);
 app.use(gloablComponent);
 app.use(ElementPlus, {
     locale: zhCn,
