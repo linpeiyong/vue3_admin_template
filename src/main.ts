@@ -6,7 +6,7 @@ import 'element-plus/dist/index.css';
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs';
 import 'virtual:svg-icons-register';
 
-import '@/styles/index.css';
+import '@/styles/index.scss';
 
 // 路由
 import router from './router';

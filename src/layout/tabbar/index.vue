@@ -1,13 +1,11 @@
 <!--
  * new page
  * @author: LinPeiYong
- * @since: 2024-09-29
- * App.vue
+ * @since: 2024-10-09
+ * index.vue
 -->
 <template>
-    <div>
-        <router-view></router-view>
-    </div>
+    <div></div>
 </template>
 
 <script setup lang="ts"></script>
