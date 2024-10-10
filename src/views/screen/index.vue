@@ -1,13 +1,12 @@
 <!--
- * new page
+ * 
+ 
  * @author: LinPeiYong
- * @since: 2024-09-30
- * P.vue
+ * @since: 2024-10-09
+ * index.vue
 -->
 <template>
-    <div>
-        <A></A>
-    </div>
+    <div></div>
 </template>
 
 <script setup lang="ts"></script>
