@@ -1,7 +1,7 @@
 <template>
     <div class="layout_container">
         <!-- 左侧菜单 -->
-        <div class="layout_slider">
+        <div class="layout_slider" :class="{ fold: LayOutSettingStore.fold ? true : false }">
             <Logo></Logo>
             <!-- 展示菜单 -->
             <!-- 滚动组件 -->
@@ -70,6 +70,11 @@ export default {
         height: 100vh;
         background: $base-menu-background;
         transition: all 0.3s;
+
+        &.fold {
+            width: 60px;
+            left: $base-menu-min-width;
+        }
 
         .scrollbar {
             width: 100%;
