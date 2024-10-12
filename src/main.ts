@@ -35,4 +35,7 @@ app.use(ElementPlus, {
 
 console.log(import.meta.env);
 
+//引入路由鉴权文件
+import './permisstion';
+
 app.mount('#app');
