@@ -6,7 +6,7 @@
  * index.vue
 -->
 <template>
-    <div></div>
+    <div>sku</div>
 </template>
 
 <script setup lang="ts"></script>

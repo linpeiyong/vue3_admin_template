@@ -6,7 +6,7 @@
  * index.vue
 -->
 <template>
-    <div></div>
+    <div>spu</div>
 </template>
 
 <script setup lang="ts"></script>
