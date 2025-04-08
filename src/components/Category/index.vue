@@ -7,7 +7,7 @@
                     :disabled="scene == 0 ? false : true"
                     v-model="categoryStore.c1Id"
                     @change="handler"
-                    style="width: 200px"
+                    style="width: 120px"
                 >
                     <!-- label:即为展示数据 value:即为select下拉菜单收集的数据 -->
                     <el-option
@@ -23,7 +23,7 @@
                     :disabled="scene == 0 ? false : true"
                     v-model="categoryStore.c2Id"
                     @change="handler1"
-                    style="width: 200px"
+                    style="width: 120px"
                 >
                     <el-option
                         v-for="(c2, index) in categoryStore.c2Arr"
@@ -37,7 +37,7 @@
                 <el-select
                     :disabled="scene == 0 ? false : true"
                     v-model="categoryStore.c3Id"
-                    style="width: 200px"
+                    style="width: 120px"
                 >
                     <el-option
                         v-for="(c3, index) in categoryStore.c3Arr"
